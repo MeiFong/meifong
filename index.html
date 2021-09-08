@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link href="style.css" type="text/css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <br>
+    <body>
+        <!--About Section-->
+        <header>
+        <nav class="topnav" id="portfolioTopnav">
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Accomplishments">Accomplishments</a>
+        <a href="#Contact">Contact</a>
+        <a href="javascript:void(0);" class="icon"; onclick="openMenu()"> <i class="fa fa-bars"></i> </a>
+        </nav>
+        <h1>Mei Fong Ng</h1>
+    </header>
+        <main>          
+    <div id="aboutsection">
+        <figure>
+            <a href=https://www.linkedin.com/in/mei-fong-ng-851a99148/" target="_blank">
+                <img src="DSC0056.jpg" width="200" height="250" alt="Mei Fong Ng"/></a>
+            </figure>
+        <!--About section-->
+        <h2 id="About" class="heading uppercase">About</h2>
+        <p>I am a third year PhD student, major in Biomedical sciences. My project about <em>melanoma metastasis</em>, where I study the <strong>underlying mechanisms</strong> behind melanoma metastasis.</p>
+        <br>
+        <br>
+        <!--Skills section-->
+        <h3 id="Skills">Skills</h3>
+        <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Academic writing</li>
+                <li>Project planning</li>
+                <li>Experimental planning</li>
+            </ul>
+        <h4>Interpersonal Skills</h4>
+            <ul class="list">
+                <li>Teamwork</li>
+                <li>Responsibility</li>
+                <li>Leadership</li>
+            </ul>
+        <h4>Technical Skills</h4>
+            <ul class="list">
+                <li><em>In vitro</em> experiment</li>
+                <li><em>In vivo</em> experiment</li>
+                <li>Data analysis</li>
+            </ul>
+    </div>
+    <div id="accomplishmentssection">
+        <!--Accomplishment section-->
+        <h2 id="Accomplishments">Accomplishments</h2>
+        <table>
+            <tr>
+                <th scope="col">Publications</th>
+                <th scope="col">Awards</th>
+                <th scope="col">Presentations</th>
+            </tr>
+            <tr>
+                <td><ul>
+                    <li>PMID: 28058624</li>
+                    <li>PMID: 27177346</li>
+                    </ul>
+                </td>
+                <td>SMR Travel award</td>
+                <td>Poster presentation in SMR 2019</td>
+            </tr>
+        </table>
+        <h3>Coding Examples</h3>
+        <a href="./quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+    </div>
+    <div id="contactsection">
+        <!--Contact section-->
+        <h2 id="Contact" class="contactform">Contact</h2>
+        <a href="https://www.linkedin.com/in/mei-fong-ng-851a99148/" target="_blank">LinkedIn</a>
+        <br>
+        <br>
+        <form>
+            <label for="name">*Name:</label>
+            <br>
+            <input type="text" name="name" required>
+            <br>
+            <br>
+            <label for="email">*Email:</label>
+            <br>
+            <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z{2,}$">
+            <br>
+            <br>
+            <label for="mobile">Mobile (optional):</label>
+            <br>
+            <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+            <br>
+            <br>
+            <label for ="textarea" for="message">*Leave your message below:</label>
+            <br>
+            <textarea id="message" name="message" rows="5" column="30" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send" id="submit" onclick="myFunction()">
+        </form>
+    </div>
+</main>
+<script src="nav.js"> function myFunction(){alert("Thank you for sending your message. Have a nice day!");}
+</script>
+    </body>
+    <!--Useful info:
+        https://developer.mozilla.org/en-US/docs/Web/HTML/Element-->
+</html>

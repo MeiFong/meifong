@@ -1,0 +1,15 @@
+.question{
+    font-weight: 200;
+}
+.answers {
+    margin-bottom: 20px;
+}
+.answers label {
+    display: block;
+}
+body{font-size: 20px; font-family: Franklin Gothic Medium; color:#333; background-color: lightgoldenrodyellow;}
+
+#submit:hover{background-color: rgb(51, 122, 170);}
+
+h1 {color:rgb(90, 3, 141);}
+
